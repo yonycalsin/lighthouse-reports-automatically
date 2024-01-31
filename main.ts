@@ -15,7 +15,7 @@ async function main() {
 
     const outputPath = path.join(OUTPUT_FOLDER, outputFilename);
 
-    const command = `npx lighthouse "${url}" --output html --output-path "${outputPath}"`;
+    const command = `npx lighthouse "${url}" --output html --output-path "${outputPath}" --port "8080"`;
 
     try {
       const result = await execAsync(command);
