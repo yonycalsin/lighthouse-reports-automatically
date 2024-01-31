@@ -4,13 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "reports": "tsx main.ts"
   },
   "keywords": [],
   "author": "Yony Calsin",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.13",
-    "lighthouse": "^11.5.0"
+    "lighthouse": "^11.5.0",
+    "tsx": "^4.7.0"
+  },
+  "dependencies": {
+    "sanitize-filename": "^1.6.3"
   }
 }
